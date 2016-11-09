@@ -1,0 +1,112 @@
+div#header div#header-inner nav div.clearfix {
+  background: black;
+  padding-bottom: 0.2rem;
+  padding-top: 0.8rem; font-family:Helvetica Neue,Helvetica,Arial,sans-serif; font-size:14px;}
+  div#header div#header-inner nav div.clearfix h4 {
+    color: white; }
+    div#header div#header-inner nav div.clearfix h3 div.left a img {
+  width: 100px; }
+    div#header div#header-inner nav div.clearfix h3 div.left div.inline-block div.relative a.btn {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem;
+      margin: 0; }
+    div#header div#header-inner nav div.clearfix h3 div.left div.inline-block div.relative div.absolute {
+      background: black;
+      color: white;
+      display: block; }
+      div#header div#header-inner nav div.clearfix h3 div.left div.inline-block div.relative div.absolute h5 ul.dropdown-menu {
+        margin-bottom: 0; }
+ div#header div#header-inner nav div.clearfix h3 div.left div.right {
+    width:16.66667%;
+      width: 25%; }
+      div#header div#header-inner nav div.clearfix h3 div.left div.right a.btn {
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+      div#header div#header-inner nav div.clearfix h3 div.left div.right div.right {
+       width: 50%; } div#header div#header-inner nav div.clearfix h3 div.left div.right div.right div.clearfix{display:none! important}div#header div#header-inner nav div.clearfix h3 div.left div.right div.right div.clearfix div.overflow-hidden{padding-left:1rem; padding-right:1rem; } 
+
+div#header div#header-inner section.container {
+  background: silver;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  div#header div#header-inner section.container div.clearfix {
+    margin-left:1rem; margin-right:1rem; }
+    div#header div#header-inner section.container div.clearfix div.col {
+      width: 33.33333%; width:33.33333%; }
+  div#header div#header-inner section.container div.clearfix div.screenshot-info-wrapper div.screenshot-conversation div.shot-desc h3 p.regular{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:16px;} div#header div#header-inner section.container div.clearfix div.flex{ color:gray; }  div#header div#header-inner section.container div.clearfix div.flex div.flex-auto {
+      padding-right: 1rem;
+      padding-left: 1rem; }
+    div#header div#header-inner section.container div.clearfix div.flex div.px2 h3 a.hover-text btn {
+     outline:silver; background: silver; padding-left:1rem; padding-right:1rem; }
+    div#header div#header-inner section.container div.clearfix div.flex div.comments-sort div.flex {
+      color: gray; }
+      div#header div#header-inner section.container div.clearfix div.flex div.comments-sort div.flex div.flex-auto {
+        padding-right: 1rem;
+        padding-left: 1rem; }
+        div#header div#header-inner section.container div.clearfix div.flex div.comments-sort div.flex div.flex-auto h3 a.hover-text {
+     outline:silver;     background: silver; padding-left:1rem; padding-right:1rem; }
+          div#header div#header-inner section.container div.clearfix div.flex div.comments-sort div.flex div.flex-auto h3 a.hover-text img.circle {
+       align:left;   width: 50px; }
+        div#header div#header-inner section.container div.clearfix div.flex div.comments-sort div.flex div.flex-auto span.right a.btn {
+        outline:silver;  background: silver;
+          margin: 0px;
+          margin-right: 0px;
+          margin-left: 0px;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          padding-right: 1rem;
+          padding-left: 1rem;
+          padding-top: 0em;
+          padding-bottom: 0em; }
+        div#header div#header-inner section.container div.clearfix div.flex div.comments-sort div.flex div.flex-auto p.comment-meta a.btn {
+   outline:silver;       background: silver;
+          padding-right: 1rem;
+          padding-left: 1rem; }
+    div#header div#header-inner section.container div.clearfix div.col {
+  float:left;     width: 25%; width:25%; }
+      div#header div#header-inner section.container div.clearfix div.col div.flex div.flex-auto {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem; }
+        div#header div#header-inner section.container div.clearfix div.col div.flex div.flex-auto div.inline-block div.relative a.btn{
+      outline:silver;    background: silver; }
+        div#header div#header-inner section.container div.clearfix div.col div.flex div.flex-auto div.inline-block div.relative div.absolute {
+          color: white;
+          background: black;
+          display: block; }
+          div#header div#header-inner section.container div.clearfix div.col div.flex div.flex-auto div.inline-block div.relative div.absolute ul.dropdown-menu {
+            margin-bottom: 0; }
+            div#header div#header-inner section.container div.clearfix div.col div.flex div.flex-auto div.inline-block div.relative div.absolute ul.dropdown-menu h5 div.inline-block {
+              background: black; }
+              div#header div#header-inner section.container div.clearfix div.col div.flex div.flex-auto div.inline-block div.relative div.absolute ul.dropdown-menu div.inline-block li a.left btn {
+                background: black; }
+                div#header div#header-inner section.container div.clearfix div.col div.flex div.flex-auto div.inline-block div.relative div.absolute ul.dropdown-menu div.inline-block li a.left img {
+                  width: 24px; }
+      div#header div#header-inner section.container div.clearfix div.col div a.btn {
+     outline:silver;   background: silver;
+        padding-right: 1rem;
+        padding-left: 1rem; }
+    div#footer.gray {
+    background: white; }
+    div#footer.gray section.container {
+    padding-right:1rem; padding-left:1rem;  padding-top: 2rem;
+      padding-bottom: 2rem; }
+  div#footer.gray section.container div.clearfix {
+        margin-right:-1rem;  margin-left:-1rem; }
+        div#footer.gray section.container div.clearfix div.sm-col {
+  float:left;box-sizing:border-box ; width: 16.66667%;
+          padding-right: 1rem;
+          padding-left: 1rem; }
+          div#footer.gray section.container div.clearfix div.sm-col h2.h3 {
+            margin-bottom: 0; }
+            div#footer.gray section.container div.clearfix div.sm-col h2.h3 p.logo a img {
+              width: 120px; }
+    div#footer.gray section.container div.clearfix div.sm-col { float:left;box-sizing:border-box ; width:8.33333%; padding-left:1rem; padding-right:1rem; }   div#footer.gray section.container div.clearfix div.sm-col ul.list-reset h3.h4 li a.btn{ outline:white; background:white;} div#footer.gray section.container div.clearfix p.follow a img {
+        width: 24px; }
+   div.shot-overlay {
+    display: none; }
+   div.shot-overlay div.overlay-content {
+      display: none; }
+  div.attachment-overlay {
+    display: none; }

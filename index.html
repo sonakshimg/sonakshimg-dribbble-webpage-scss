@@ -1,0 +1,1314 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>
+      Product Dashboard, Activity Feed UI/UX by Mason Yarnell - Dribbble
+  </title>
+  <meta charset="utf-8" />
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"7840d0c136","applicationID":"2909452","transactionName":"Jg1bREUOClsARUpHABcHUF5ECQlDFhgWXAwS","queueTime":1,"applicationTime":37,"agent":""}</script>
+
+  <meta name="theme-color" content="#333333">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <meta name="referrer" content="always">
+  <!--[if gte IE 7]><!-->
+  <link href="https://d13yacurqjgara.cloudfront.net/assets/dribbble-vector-ball-95ca193529993e9b3904f7adb541680aba196642f557cfaf3cdbb0a48a284be4.svg" rel="mask-icon" color="#ea4c89" />
+  <link href="https://d13yacurqjgara.cloudfront.net/assets/apple-touch-icon-precomposed-4a188d3f4dd693b67971fda843fd4bdeae751f9a245e3b878cae17e0a9d6a0a3.png" rel="apple-touch-icon-precomposed" />
+  <link href="https://d13yacurqjgara.cloudfront.net/assets/favicon-63b2904a073c89b52b19aa08cebc16a154bcf83fee8ecc6439968b1e6db569c7.ico" rel="icon" />
+  <link href="https://d13yacurqjgara.cloudfront.net/assets/dribbble-ball-192-ec064e49e6f63d9a5fa911518781bee0c90688d052a038f8876ef0824f65eaf2.png" sizes="192x192" rel="icon" />
+
+<link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/colors.min.css" rel="stylesheet">
+<link href="css/colors.css" rel="stylesheet">
+
+<link href="src/base.css rel="stylesheet">
+<link href="https://unpkg.com/basscss-align@1.0.2/css/align.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-border@4.0.2/css/border.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-flexbox@1.0.1/css/flexbox.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-grid@1.0.2/lib/grid.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-grid@1.0.2/lib/lg-grid.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-grid@1.0.2/lib/md-grid.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-grid@1.0.2/lib/sm-grid.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-hide@1.0.1/css/hide.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-layout@3.1.0/css/layout.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-margin@1.0.7/css/margin.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-padding@1.1.3/css/padding.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-position@2.0.3/css/position.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-type-scale@1.0.5/css/type-scale.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-typography@3.0.3/css/typography.css" rel="stylesheet">
+<link href="https://unpkg.com/colors.css@3.0.0/src/_variables.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-margin/lib/lg-margin.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-margin/lib/md-margin.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-margin/lib/sm-margin.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-padding/lib/lg-padding.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-padding/lib/md-padding.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-padding/lib/sm-padding.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-layout/css/responsive-layout.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-position/css/responsive-position.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-typography/css/responsive-typography.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/responsive-type-scale/css/responsive-type-scale.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/forms/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/btn/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/btn-outline/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/btn-primary/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/btn-sizes/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/colors/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/background-colors/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/background-images/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/border-colors/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/highlight-dark/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/highlight/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/input-range/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/progress/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/all/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/media-object/media-object.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/darken/index.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-addons@1.0.0/modules/lighten/index.css" rel="stylesheet">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="EJcr+bLcBacq/bZF9mUnMhL/1i03RKfEI9xPVqJxi+C2SkYxhgRNMSSU8Y+x8DNCa5oXrAEAF+iJrBrknPmmGw==" />
+    <meta name="description" content="Here is a product dashboard that I previously worked on that enables brands to connect with content creators for reviews, tutor..." />
+  <meta property="og:url" content="https://dribbble.com/shots/1740688-Product-Dashboard-Activity-Feed-UI-UX" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Product Dashboard, Activity Feed UI/UX" />
+  <meta property="og:image" content="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/1740688/shot.png" />
+  <meta property="og:site_name" content="Dribbble" />
+  <meta property="og:description" content="Here is a product dashboard that I previously worked on that enables brands to connect with content creators for reviews, tutorials and the ever-lovable product placements. I would love to know what you think.Hit me up!" />
+  <meta name="twitter:card" content="photo" />
+  <meta name="twitter:site" content="@dribbble" />
+  <meta name="twitter:creator" content="@masonyarnell" />
+  <meta name="twitter:image:width" content="800" />
+  <meta name="twitter:image:height" content="600" />
+
+
+  <script>
+    if (location.hash.match(/^#\./) && window.history) {
+      window.history.replaceState({}, window.title, location.origin + location.pathname + location.search)
+    }
+  </script>
+  <noscript>
+    <style>ol.dribbbles { display: block !important }</style>
+  </noscript>
+</head>
+
+<body id="details" class="scrollbar-unknown logged-out not-pro not-player not-self not-team grid-small grid-with-meta">
+    <script src="assets/js/jquery.js"></script>
+
+<div id="header" role="banner">
+  <div id="header-inner">
+  <nav>
+<div class="clearfix white pb2 pt3 h5 bg-black">
+  
+   <div class="left">    
+<a href="https://dribbble.com"><img width="70" alt="dribbble" src="https://d13yacurqjgara.cloudfront.net/assets/logo-small-4612353cefa78dfe35ba5e8e9d35da9f9305a3a516ef9675b5c37004c5862b6d.png"></a>
+    <div id="shots-menu" class="inline-block disclosure-group" data-disclosure>
+      <div class="relative">
+       <a href="https://dribbble.com/shots"  class="btn py2 m0 btn-nav-dark"><span class="white muted">Shots</span></a>
+       <div data-details class="absolute nowrap white bg-black rounded" style="display:block;">
+          <ul id="shotsSubmenu" class="dropdown-menu  hide h5 list-reset mb0">
+        <li><a href="https://dribbble.com/shots" class="btn block btn-nav-light">Popular</a></li>
+        <li><a href="https://dribbble.com/shots?sort=recent" class="btn block btn-nav-light">Recent</a>
+        <li><a href="https://dribbble.com/shots?list=debuts" class="btn block btn-nav-light">Debuts</a>
+        <li><a href="https://dribbble.com/shots?list=teams" class="btn block btn-nav-light">Teams</a>
+        <li><a href="https://dribbble.com/shots?list=playoffs" class="btn block btn-nav-light">Playoffs</a>
+        <li class="separate"><a href="https://dribbble.com/highlights" class="btn block btn-nav-light">Highlights</a></li>
+        <li><a href="https://dribbble.com/projects" class="btn block btn-nav-light">Projects</a></li>
+        <li><a href="https://dribbble.com/goods" class="btn block btn-nav-light">Goods by Designers</a></li>
+         </ul>
+        </div>
+      </div>
+    </div>
+        <div id="players-menu" class="inline-block" data-disclosure>
+      <div class="relative">
+       <a href="https://dribbble.com/designers" class="btn py2 m0"><span class="white muted">Designers</span></a>
+       <div data-details class=" absolute nowrap white bg-black rounded">
+       <ul id="nav" role="navigation" class=" hide h5 list-reset mb0">
+    <li><a href="https://dribbble.com/designers" class="btn block">All</a></li>
+  <li><a href="https://dribbble.com/designers?for_hire=on" class="btn block">For Hire</a></li>
+  <li class="separate"><a href="https://dribbble.com/places" class="btn block">Community</a></li>
+   </ul>
+   </div>
+  </div>
+ </div>
+       <div id="teams-menu" class="inline-block" data-disclosure>
+      <div class="relative">
+       <a href="https://dribbble.com/teams" class="btn py2 m0"><span class="white muted">Teams</span></a>
+       <div data-details class=" absolute nowrap white bg-black rounded">
+       <ul id="nav" role="navigation" class=" hide h5 list-reset mb0">
+     <li><a href="https://dribbble.com/teams" class="btn block">All</a></li>
+  <li><a href="https://dribbble.com/teams?hiring=on" class="btn block">Hiring Designers</a></li>
+  <li><a href="https://dribbble.com/teams?for_hire=on" class="btn block">Design Teams for Hire</a></li>
+  <li class="separate"><a href="https://dribbble.com/teams/info" class="btn block">Add Your Design Team</a></li>
+</ul>
+</div>
+</div>
+</div>
+      <div id="community-menu" class="inline-block" data-disclosure>
+      <div class="relative">
+  <a href="https://dribbble.com/places" class="btn py2 m0"><span class="white muted">Community</span></a>
+  <div data-details class=" absolute nowrap white bg-black rounded">
+   <ul id="nav" role="navigation" class=" hide h5 list-reset mb0">
+    <li><a href="https://dribbble.com/places" class="btn block">Places</a></li>
+   <li><a href="https://dribbble.com/meetups" class="btn block">Meetups</a></li>
+   <li class="separate"><a href="https://dribbble.com/stories" class="btn block">Stories</a></li>
+  <li><a href="https://dribbble.com/stories/categories/overtime" class="btn block">Podcast</a></li>
+  <li><a href="https://dribbble.com/testimonials" class="btn block">Testimonials</a></li>
+   <li class="separate"><a href="https://dribbble.com/guidelines" class="btn block">Guidelines</a></li>
+ </ul>
+</div>
+</div>
+</div>
+    <div id="jobs-menu" class="inline-block" data-disclosure>
+      <div class="relative">
+   <a href="https://dribbble.com/jobs" class="btn py2 m0"><span class="white muted">Jobs</span></a>
+   <div data-details class=" absolute nowrap white bg-black rounded">
+    <ul id="nav" role="navigation" class=" hide h5 list-reset mb0">
+          <li><a href="https://dribbble.com/jobs" class="btn block">All</a></li>
+          <li><a href="https://dribbble.com/jobs?location=Anywhere" class="btn block">Remote / Anywhere</a></li>
+          <li><a href="https://dribbble.com/jobs?teams_only=true" class="btn block">Teams Hiring</a></li>
+          <li class="separate"><a href="https://dribbble.com/jobs/info" class="btn block">Post a Job</a></li>
+      </ul>
+  </div>
+  </div>
+  </div>
+         <div id="...-menu" class="inline-block" data-disclosure>
+      <div class="relative">
+ <a href="https://dribbble.com/about" class="btn py2 m0"><span class="white muted">...</span></a>
+  <div data-details class=" absolute nowrap white bg-black rounded">        
+       <ul id="nav" role="navigation" class=" hide h5 list-reset mb0">
+          <li><a href="https://dribbble.com/about" class="btn block">About</a></li>
+          <li><a href="http://shop.dribbble.com/" class="btn block">Shop</a></li>
+          <li><a href="http://help.dribbble.com/" class="btn block">Support</a></li>
+          <li class="separate"><a href="https://dribbble.com/buckets" class="btn block">Buckets</a></li>
+          <li><a href="https://dribbble.com/colors" class="btn block">Colors</a></li>
+          <li><a href="https://dribbble.com/tags" class="btn block">Tags</a></li>
+          <li><a href="https://dribbble.com/training" class="btn block">Training</a></li>
+          <li class="separate"><a href="http://twitter.com/dribbble" class="btn block">Twitter</a></li>
+          <li><a href="http://facebook.com/dribbble" class="btn block">Facebook</a></li>
+          <li><a href="https://dribbble.com/integrations" class="btn block">Integrations</a></li>
+      </ul>
+</div>
+</div>
+</div>
+</div>
+
+ <div class="right sm-col-2 sm-col-3">
+      <a href="https://dribbble.com/session/new?return_to=%2Fshots%2F1740688-Product-Dashboard-Activity-Feed-UI-UX" class="btn py2">
+     <span class="white muted"> Sign up</span></a>
+
+        <a href="https://dribbble.com/signup?return_to=%2Fshots%2F1740688-Product-Dashboard-Activity-Feed-UI-UX" class="btn py2"><span class="white muted">Sign in</span></a>
+      <div class="right sm-col-6">
+        <form id="search" action="https://dribbble.com/search">
+          <input class="search-text" type="text" h3 name="q" placeholder="Search " value=""/>
+          </form>
+</div>
+</div>
+
+ <div class="clearfix sm-hide"></div>
+  <div class="overflow-hidden px2">
+ </div>
+</div>
+</nav>
+</div>
+</div>
+ <!-- /header -->
+
+
+
+<section class="container px2 py3 bg-silver">
+  <div class="clearfix mxn2">
+<div class="col col-2 md-col-3">
+<p></p>
+</div>
+    <div class="col col-4 md-col-4">
+        <a class="url hoverable" rel="contact" title="Mason Yarnell" href="https://dribbble.com/yarnell"><div data-picture data-class="photo">
+  <div data-src="https://d13yacurqjgara.cloudfront.net/users/44126/avatars/small/6d9df7113b4e03b094778c48f6584804.jpg?1446142205"></div>
+  <div data-src="https://d13yacurqjgara.cloudfront.net/users/44126/avatars/normal/6d9df7113b4e03b094778c48f6584804.jpg?1446142205" data-media="(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx)"></div>
+    <img class="circle left" width="50" height="50" src="https://d13yacurqjgara.cloudfront.net/users/44126/avatars/small/6d9df7113b4e03b094778c48f6584804.jpg?1446142205" />
+</div>
+</a>
+      <h3>Product Dashboard, Activity Feed UI/UX</h3>
+       <h4>
+          <span class="gray">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by <a class="url hoverable" rel="contact" href="https://dribbble.com/yarnell">Mason Yarnell</a>
+          </span>
+   
+
+
+
+        <span class="gray">
+         on <a href="https://dribbble.com/shots?date=2014-09-25" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px0 py0"><span class="gray">Sep 25, 2014</span></a>
+        </span>
+      </h4>
+
+<div class="md-col-10">
+  <div class="p2 bg-white border-rounded outline-white">
+  <div class="main-shot zoomable">
+    <div class="the-shot" data-screenshot_id="1740688" data-img-src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/1740688/shot.png">
+      <div class="single group">
+        <div class="single-grid"><div class="single-img">
+          <div data-picture data-alt="Product Dashboard, Activity Feed UI/UX">
+  <div data-src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/1740688/shot_1x.png"></div>
+  <div data-src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/1740688/shot.png" data-media="(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx)" class="mb2" width="300"/></div>
+  <noscript>
+    <img alt="Product Dashboard, Activity Feed UI/UX" src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/1740688/shot_1x.png"/>
+  </noscript>
+</div>
+
+        </div></div>
+</div>
+</div>
+</div>
+           
+<noscript>
+  <h4>JavaScript Not Enabled</h4>
+  <p class="note">Uploading an attachment requires the use of JavaScript. If you'd like to upload an attachment, please enable JavaScript in your browser and refresh this page.</p>
+</noscript>
+
+
+<div class="attachments">
+  <h3>1 Attachment</h3>
+
+      <a data-title="Dribbble - dashboard.png by Mason Yarnell" href="https://dribbble.com/shots/1740688-Product-Dashboard-Activity-Feed-UI-UX/attachments/281529">
+          <img class="thumb" title="dashboard.png" src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/1740688/attachments/281529/thumbnail/dashboard.png" alt="Dashboard" class="mb0" />
+</a>
+  
+
+</div>
+</div>
+</div>
+<br/>
+
+    <div class="screenshot-info-wrapper">
+      <div class="screenshot-conversation has-comments">
+
+          <div class="shot-desc">
+<h3>
+            <p class="regular">Here is a product dashboard that I previously worked on &nbsp;&nbsp; that enables brands to connect with content creators for reviews, tutorials and the ever-lovable product placements.  I would love to know what you think. Hit me up!</p>
+</h3>
+<p></p>
+          </div>
+
+</div>
+</div>
+<br/>
+
+
+    <div id="comments-section"></div>
+<div class="flex flex-start gray border-top">
+  <div class="flex-auto px2">
+<br/>
+<h3 class="m0 black regular">65 Responses<span class="gray">(page 1 of 3)</span></h3>
+</div>
+<div class="px2 h4">
+<br/>
+<a href="/shots/1740688-Product-Dashboard-Activity-Feed-UI-UX?comments_sort=oldest" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray">oldest</span></a>
+<a href="/shots/1740688-Product-Dashboard-Activity-Feed-UI-UX?comments_sort=newest" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray">newest</span></a>
+<a href="/shots/1740688-Product-Dashboard-Activity-Feed-UI-UX?comments_sort=liked" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray">liked</span></a>
+</div>
+</div>
+
+ <br/><br/>       
+
+  <div class="comments-sort">
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+ 
+    <a rel="contact" href="https://dribbble.com/noptar" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30"height="30" src="https://d13yacurqjgara.cloudfront.net/users/33345/avatars/original/Untitled-2.jpg?1331377724"><span class="black regular"> Mani</span></a>
+
+  <div class="comment-body">
+    <span class="black regular"><a class="url mention" ref="contact" data-user-id="44126" href="https://dribbble.com/44126">&nbsp;&nbsp;@Mason Yarnell</a> simply awesome!</span>
+  </div>
+
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966539/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;3</span></i></a><span class="hide">likes</span>
+  </span>
+
+
+ <p class="comment-meta">
+
+  <a href="#comment-3966539" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+  </p>
+
+
+ </div>
+</div>
+<br/>
+
+ <div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/yarnell" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/44126/avatars/small/6d9df7113b4e03b094778c48f6584804.jpg?1446142205"><span class="black regular"> Mason Yarnell</span></a>
+  
+  <div class="comment-body">
+    <span class="black regular"> &nbsp;&nbsp;&nbsp;&nbsp;Thanks, <a class="url mention" ref="contact" data-user-id="33345" href="https://dribbble.com/33345">@Mani</a>!</span>
+  </div>
+</h4> 
+  <span class="right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966545/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+<p class="comment-meta">
+  <a href="#comment-3966545" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+  </p>
+  </div>
+</div>
+<br/>
+
+ <div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/vladdesign" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30"height="30" src="https://d13yacurqjgara.cloudfront.net/users/117354/avatars/small/4ebd205a954c10c86e89033ff42946f4.jpg?1467986844"> <span class="black regular"> Vladimir Babic</span></a>
+  
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;I love how simple are graph and status. Gj sir.</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966566/likes"  class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966566" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+ 
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/DominicL" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/389196/avatars/small/69439f4498c85671af98154171db557d.png?1472466632"><span class="black regular">Dominic L.</span></a>
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Great work my friend, palette and graphs are awesome ;)</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966572/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966572" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+  </p>
+</div>
+</div>
+<br/>
+
+  <div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+      <a rel="contact" href="https://dribbble.com/JamieHeuze" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/188872/avatars/small/avatar_3x.png?1402336486"><span class="black regular"> Jamie Heuze</span></a>
+ 
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Looks great! Spacing is dead on and palette works really &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;well...kinda feels like a google app/extension.</span>
+  </div>
+</h4>
+
+  <span class="right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966584/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966584" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+  
+ <div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/andrejkrajcir" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/218180/avatars/small/8941ef926c822f393920545ab03e7a81.png?1476386733"><span class="black regular">Andrej Krajčir</span></a>
+
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Nice ui :)</span>
+  </div>
+</h4>
+  <span class="right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966595/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966595" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+  </p>
+</div>
+</div>
+<br/>
+
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/kovadave" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/45617/avatars/small/752d04eceff7497c06c15d59d3d7b45a.jpg?1456872243"><span class="black regular"> David Kovalev</span></a>
+ 
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;this is so inspiring! </span>
+  </div>
+</h4>
+  <span class="right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966626/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966626" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+     <a rel="contact" href="https://dribbble.com/yarnell" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/44126/avatars/small/6d9df7113b4e03b094778c48f6584804.jpg?1446142205"><span class="black regular"> Mason Yarnell</span></a>
+  
+  <div class="comment-body">
+    <p><a class="url mention" ref="contact" data-user-id="117354" href="https://dribbble.com/117354">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Vladimir Babić</a> <a class="url mention" ref="contact" data-user-id="389196" href="https://dribbble.com/389196">@Dominic L.</a> <a class="url mention" ref="contact" data-user-id="188872" href="https://dribbble.com/188872">@Jamie Heuze</a> <a class="url mention" ref="contact" data-user-id="218180" href="https://dribbble.com/218180">&nbsp;&nbsp;&nbsp;@Andrej Krajčír </a><a class="url mention" ref="contact" data-user-id="45617" href="https://dribbble.com/45617">@David Kovalev</a><span class="black regular"> It's good to hear from &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you, fellas! Glad you are  digging it.</span></p>
+  </div>
+</h4>
+
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966645/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/lbugla" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0" ><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/26306/avatars/small/738d20aa538cd2d4f0972dbbcbc0efd6.jpg?1444237427"><span class="black regular"> Lukas Bugla</span></a>
+  
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;What can I say, buddy... awesome!!</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966662/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/ionuss" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/14501/avatars/small/dribbble-avatar.png?1384349285"><span class="black regular">Ionut Zamfir</span></a>
+ 
+  <div class="comment-body">
+    <span class="black regular"><a class="url mention" ref="contact" data-user-id="44126" href="https://dribbble.com/44126">&nbsp;&nbsp;@Mason Yarnell</a> This is absolutely beautiful! Great job, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;my friend!</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966679/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+
+  <div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/gregvasilenko" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/302202/avatars/small/04005cf690af047580581605155fcc7e.jpg?1436771822"><span class="black regular"> Greg Vasilenko</span></a>
+ 
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Very nice and clean</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966698/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a  rel="contact" href="https://dribbble.com/foundationsix" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/771/avatars/original/IMG_5472.jpg?1305129390"> <span class="black regular">Dave Ruiz</span></a>
+
+  <div class="comment-body">
+    <span class="black regular"><a class="url mention" ref="contact" data-user-id="44126" href="https://dribbble.com/44126">&nbsp;&nbsp;@Mason Yarnell</a> Killing it as usual. Looks great, dude!</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966714/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/ryanboye" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/407044/avatars/small/2690aacb5289e3fa8653b11fd5d94b77.png?1444869085"><span class="black regular">Ryan Boye</span></a>
+ 
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;This rules, great work! What kind of process did you go &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;through to come up with the final information &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;architecture? Did you go through a lot of initial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variations?</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966744/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+
+<br/>
+
+
+  <div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/dhunten" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/238352/avatars/small/avatar.png?1354472584"><span class="black regular">Derek Hunten</span></a>
+ 
+
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;ipsum spotted :) Looks very clean, nice job. I think the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;post detail section could relate back to the actual posts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;list better. It took me a while to figure out the correlation.</span>
+  </div>
+</h4>
+
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966828/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/yarnell" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/44126/avatars/small/6d9df7113b4e03b094778c48f6584804.jpg?1446142205"><span class="black regular"> Mason Yarnell</span></a>
+
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Good question, <a class="url mention" ref="contact" data-user-id="407044" href="https://dribbble.com/407044">@Ryan</a>. This was an iterative process &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and a good functionality spec from the client always &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comes in handy.The client had a basic prototype built. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That helped me understand the big idea. </span>
+<br/>
+<span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One example of a major change was that they had the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filter by  Type navigation hidden away in a small &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dropdown. During product testing, no one could find it. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It was clear that had to be more prominently integrated &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;into the dashboard. I designed it as a vertical  navigation, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;similar to an email app. This felt familiar and it can be &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hidden to focus on the main content area if the user &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wishes. </span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966844/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;4</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/dahl" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/435693/avatars/small/00ad89c387cbfec4e315d1354ffa03ba.png?1474132514"><span class="black regular"> Mason Dahl</span></a>
+
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;So amazing man, how do you do it.</span>
+  </div>
+</h4>
+  <span class="right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966850/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/adriansomoza" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/440947/avatars/small/4c19413acc795330151defbbdd3f0f34.png?1443391191"><span class="black regular">Adrián Somoza</span></a>
+  
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Brilliant as ever.</span>
+  </div>
+
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966869/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;2</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/vivekravin" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/315734/avatars/small/4043fcb1adcacfff4e1668bde0d8cf21.png?1476875056"><span class="black regular">Vivek Ravin</span></a>
+ 
+
+  <div class="comment-body">
+    <span class="black regular"><a class="url mention" ref="contact" data-user-id="44126" href="https://dribbble.com/44126">&nbsp;&nbsp;@Mason Yarnell</a> Nice work mate :)</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966875/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;1</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/zramos" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/175705/avatars/small/ff8af9f14c9f76bfefa23e670c2f7ac3.jpg?1466011093"><span class="black regular">Zahir Ramos</span></a>
+
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Despite the amount of detail, upon initial viewing it's &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;still very comfortable to the eyes. Excellent design!</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3966890/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;1</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a  rel="contact" href="https://dribbble.com/novagraphix" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/40589/avatars/small/8d862e6360d7bcc8478296b3875d20d1.jpg?1469805377"><span class="black regular"> Steve Fraschini</span></a>
+  
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Well balanced and organized Mason, really love the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;panel on the top of your dashboard and how you used &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the white space.</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3967019/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;1</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3967019" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/danlev" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/33051/avatars/small/1467bbb4bbdd9a3a1d3436f7a7445d5f.png?1392279842"><span class="black regular"> Dan Leveille</span></a>
+  
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Really interesting usage of the "reshare" icon to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;represent rehiring someone.</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3967112/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;1</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a  rel="contact" href="https://dribbble.com/JulienRenvoye" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/2559/avatars/small/jpeg.jpg?1387001065"><span class="black regular">Julien Renvoye</span></a>
+  
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;In love with this Mason. In love with you actually.</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3967144/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;3</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/kylietimpani" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30" src="https://d13yacurqjgara.cloudfront.net/users/70596/avatars/small/65f772fa1ab4eb839e21fda68a0fba3b.png?1416965079"><span class="black regular"> Kylie Timpani</span></a>
+
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Seriously beautiful work as always. I would love to take &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a peek at your PSDs. Everything looks so organised and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;consistent. Do you have any special tips/tricks?</span>
+  </div>
+
+</h4>
+  <span class="right comment-meta-likes">
+    <a class="likes-list" href="/comments/3967162/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;1</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+ <div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a rel="contact" href="https://dribbble.com/AnghelGabriel" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/72830/avatars/small/profile_pic_ang.jpg?1391589896"><span class="black regular">Anghel Gabriel</span></a>
+  
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;i have that same feeling of a simple client that does not &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;understand the concept :). Maybe it's me maybe not, but &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i really can't figure the thing out by just looking at this &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shot.</span>
+<br/>
+<span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best.</span>
+<br/>
+<span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.S Visually , looks F great</span>
+  </div>
+</h4>
+  <span class="right comment-meta-likes">
+    <a class="likes-list" href="/comments/3967163/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;1</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+</div>
+</div>
+<br/>
+
+  
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+<h4>
+    <a  rel="contact" href="https://dribbble.com/ThemeTree" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><img class="circle left" width="30" height="30"src="https://d13yacurqjgara.cloudfront.net/users/407668/avatars/small/e9a9b2a9ae15d3c7f33bf9f49fe4e12e.png?1467298721"><span class="black regular"> Brian Anderson</span></a>
+ 
+  <div class="comment-body">
+    <span class="black regular">&nbsp;&nbsp;&nbsp;&nbsp;Sorry for the bad language, but this design looks f*cking &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;awesome. Nice work <a class="url mention" ref="contact" data-user-id="44126" href="https://dribbble.com/44126">@Mason Yarnell</a>!</span>
+  </div>
+</h4>
+  <span class=" right comment-meta-likes">
+    <a class="likes-list" href="/comments/3967203/likes" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray"><i class="fa fa-heart">&nbsp;1</span></i></a><span class="hide">likes</span>
+  </span>
+
+  <p class="comment-meta">
+
+
+  <a href="#comment-3966645" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px2 py0"><span class="gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 2 years ago</span></a>
+
+
+  </p>
+
+<br/>
+  <a href="#!"><img src="index_files/icon-128x1282.png" width="40" height="40" class=" circle block mx-auto"/></a>
+<br/>
+<br/>
+</div>
+</div>
+<br/>
+
+
+
+<div id="kbd-legend">
+  <p class="gray h6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;keyboard shortcuts:
+    <span><strong>&nbsp;&nbsp;&nbsp;&nbsp;L</strong> or <strong>F</strong> like</span>
+      <span><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Z</strong> toggle zoom&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <span><strong class="keyboard-submit-shortcut"></strong> post comment</span>
+  </p>
+</div>
+
+</div>
+</div>
+<br/><br/>
+<div class="col col-3 md-col-3">
+<br/><br/><br/><br/><br/>
+
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px1">
+    <div id="share-menu" class="inline-block disclosure-group" data-disclosure>
+      <div class="relative">
+  <a href="#" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px0 py0"><span class="gray h4">Share</span>
+    <img class="left" width="20" height="20" src="https://d13yacurqjgara.cloudfront.net/assets/icon-shotstat-share-128ae71c26985fc7325ac5362aba434686f12fdfffa45ed874262a19f923b071.png" alt="Icon shotstat share" />  
+  </a>
+
+<div data-details class="absolute nowrap white bg-black rounded" style="display:block;">
+          <ul id="shareSubmenu" class="dropdown-menu hide h5 list-reset mb0">
+<div class="inline-block clearfix bg-black">
+ <li> <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdribbble.com%2Fshots%2F1740688-Product-Dashboard-Activity-Feed-UI-UX%2F%23comment-3966662&text=Product%20Dashboard%2C%20Activity%20Feed%20UI%2FUX%20by%20%40masonyarnell%3A" button type="button" class="left btn btn-primary bg-black rounded-left is-active"><img width="24" src="index_files/twitter-xxl.png" alt="Icon team twitter"></a></li> 
+  <li><a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdribbble.com%252Fshots%252F1740688-Product-Dashboard-Activity-Feed-UI-UX%252F%2523comment-3966662&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Freturn%2Fclose%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=en_GB" button type="button" class="left btn btn-primary bg-black border-left not-rounded"><img width="24" src="index_files/facebook-2-xxl.png" alt="Icon team facebook"/></a></li>
+<li><a href="https://in.pinterest.com/pin/create/button/?url=https%3A%2F%2Fdribbble.com%2Fshots%2F1740688-Product-Dashboard-Activity-Feed-UI-UX%2F%23comment-3966662&description=Product%20Dashboard%2C%20Activity%20Feed%20UI%2FUX%20by%20Mason%20Yarnell&media=https%3A%2F%2Fd13yacurqjgara.cloudfront.net%2Fusers%2F44126%2Fscreenshots%2F1740688%2Fshot.png" button type="button" class="left btn btn-primary bg-black border-left not-rounded"><img width="24" src="index_files/pinterest-512.gif" alt="Icon pinterest"/></a></li>
+<li><a href="https://www.tumblr.com/widgets/share/tool/preview?shareSource=legacy&canonicalUrl=&url=https%3A%2F%2Fdribbble.com%2Fshots%2F1740688-Product-Dashboard-Activity-Feed-UI-UX%2F%23comment-3966662&title=Product+Dashboard%2C+Activity+Feed+UI%2FUX+by+Mason+Yarnell" button type="button" class="left btn btn-primary bg-black rounded-left not-rounded"><img width="24" src="index_files/tumblr-xxl.png" alt="Icon tumblr"></a></li> 
+<li><a href="#" button type="button" class="left btn btn-primary bg-black border-left not-rounded"><img width="50" src="index_files/Mail.png" alt="Icon mail"></a></li>
+</div>
+</ul>
+</div>
+</div>
+</div>
+</div>
+   <div class="px2 h4">143,494
+      views
+    <span class="gray">
+    </span>
+  </div> 
+</div>
+
+
+
+<div class="flex flex-baseline gray border-bottom ">
+  <div class="flex-auto px2">
+<br/>
+     <span class="stats-action">
+     <img src="https://d13yacurqjgara.cloudfront.net/assets/icon-shotstat-like-6a1e9e9db48b9b788639f05a658379b7bb027a75d256127f812bf9392664396f.png" width="20" height="20" alt="Icon shotstat like" />
+      <span class="stats-label likes-count h4">
+        2,390
+        likes
+      </span>
+    </span>
+<br/>
+<br/>
+</div>
+</div>
+<br/>
+
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+      <a rel="tipsy" title="Download this color palette (.aco)" class="stats-action" href="https://dribbble.com/shots/1740688-Product-Dashboard-Activity-Feed-UI-UX/colors.aco"><img width="20" height="20 " src="https://d13yacurqjgara.cloudfront.net/assets/icon-shotstat-drop-0152bfcbd3cb7ed50e73b830df47c754f061a376a662eac8841ad45316598d97.png" alt="Icon shotstat drop" /></a>
+      
+    
+        <a href="https://dribbble.com/colors/F8FAFB" class="btn btn-primary bg-white m0 mx0 my0 p0 px0 py0"></a><a href="https://dribbble.com/colors/272A34" class="btn btn-primary bg-black m0 mx0 my0 p0 px0 py0" ></a><a href="https://dribbble.com/colors/727985" class="btn btn-primary bg-gray m0 mx0 my0 p0 px0 py0"></a><a href="https://dribbble.com/colors/B5B2AF" class="btn btn-primary black bg-darken-2 m0 mx0 my0 p0 px0 py0"></a><a href="https://dribbble.com/colors/9E5C52" class="btn btn-primary bg-maroon m0 mx0 my0 p0 px0 py0"></a><a href="https://dribbble.com/colors/473D42" class="btn btn-primary bg-navy m0 mx0 my0 p0 px0 py0"></a><a href="https://dribbble.com/colors/889F85" class="btn btn-primary bg-olive m0 mx0 my0 p0 px0 py0"></a>
+<br/>
+<br/>
+</div>
+</div>
+<br/>
+
+<div class="flex flex-baseline gray border-bottom">
+  <div class="flex-auto px2">
+  <h2 class="mt0">
+    <a href="https://dribbble.com/yarnell" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px0 py0"><span class="black">
+      More from Mason Yarnell
+</span>
+    </a>
+  </h2>
+  <div class="clearfix mxn2"> 
+         <div class="col sm-col-4 px2 mb2">
+           <a href="https://dribbble.com/shots/2900423-Toasted-Marshmallows-Camping-Badge" class="block">
+           <img width="80" height="60" alt="Toasted Marshmallows Camping Badge" src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/2900423/artboard_1_teaser.png" class="block" />
+      </a>
+    </div>
+       <div class="col col-4 sm-col-1 md-col-3 px2 mb2">
+         <a href="https://dribbble.com/shots/2821439-Landing-Page-and-Motion-Design" class="block">
+        <img width="80" height="60" alt="Landing Page and Motion Design" src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/2821439/famebit_teaser.gif" class="block" />
+      </a>
+    </div>
+
+<div class="col sm-col-1 md-col-4 px2 mb2">
+      <a href="https://dribbble.com/shots/2491183-Mixpanel-iOS-iPhone-App" class="block">
+        <img width=80" height="60" alt="Mixpanel iOS, iPhone App " src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/2491183/mixapp_shot_teaser.png" class="block" />
+      </a>
+    </div>
+
+    <div class="col col-4 sm-col-3 md-col-3 px2 mb2">
+      <a href="https://dribbble.com/shots/2222262-Website-Design-for-Writer" class="block">
+        <img width="80" height="60" alt="Website Design for Writer" src="https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/2222262/ay-website_teaser.jpg" class="block" />
+      </a>
+    </div>
+</div>
+<br/>
+</div>
+</div>
+<br/>
+
+  <div>
+          <h3 class="meta-head">&nbsp;Tags</h3>
+ 
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/activity" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>activity</strong></span>
+</a>
+
+ <a rel="tag" href="https://dribbble.com/yarnell/tags/admin" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>admin</strong></span>
+</a>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/chart" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>chart</strong></span>
+</a>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/feed" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>feed</strong></span>
+</a>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/graph" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>graph</strong></span>
+</a>
+<br/>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/icons" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>icons</strong></span>
+</a>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/message" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>message</strong></span>
+</a>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/product" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>product</strong></span>
+</a>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/stats" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>stats</strong></span>
+</a>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/ui" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>ui</strong></span>
+</a>
+<br/>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/ux" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>ux</strong></span>
+</a>
+
+  <a rel="tag" href="https://dribbble.com/yarnell/tags/video" class="hover-text decoration-black btn-outline silver bg-silver m0 mx0 my0 p0 px1 py0"><span class="gray h4">    <strong>video</strong></span>
+</a>
+  </div>
+</div>
+</div>
+</section>
+<!-- /main -->
+
+
+
+<hr />
+<footer class="gray" bg="white">
+<section class="container px2 py3">
+   <div class="clearfix mxn2">
+      <div class="sm-col sm-col-2 px2">
+         <h3 class="h4 mb0">
+    <p class="logo regular"><a href="https://dribbble.com"><img width="120" alt="dribbble" src="https://d13yacurqjgara.cloudfront.net/assets/logo-footer-hd-a05db77841b4b27c0bf23ec1378e97c988190dfe7d26e32e1faea7269f9e001b.png" /></a><br />Show and tell for designers</p>
+
+           <p class="about regular">What are you working on? Dribbble is a community of designers sharing screenshots of their work, process, and projects.</p>
+</h3>
+</div>
+     <div class="sm-col sm-col-1 px2">
+  <ul class="list-reset">
+            <h4 class="h5 m0">
+      <li><a id="f-home" href="https://dribbble.com/about" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4">About</span></a></li><br/>
+          <li><a href="http://help.dribbble.com"  class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4">Help</span></a></li><br/>
+          <li><a href="https://dribbble.com/contact" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4">Contact</span></a></li><br/>
+          <li><a href="https://dribbble.com/terms" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4">Terms</span></a></li><br/>
+</h4>
+</ul>
+</div>
+      <div class="sm-col sm-col-1 px2">
+         <ul class="list-reset">
+             <h4 class="h5 m0">
+          <li><a href="https://dribbble.com/guidelines" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4"> Guidelines</span></a></li><br/>
+          <li><a href="https://dribbble.com/privacy" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4"> Privacy</span></a></li><br/>
+          <li><a href="http://shop.dribbble.com/" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4">Shop</span></a></li><br/>
+          <li><a href="https://dribbble.com/testimonials" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4">  Testimonials</span></a></li><br/>
+</h4>
+</ul>
+</div>
+    <div class="sm-col sm-col-1 px2">
+         <ul class="list-reset">
+             <h4 class="h5 m0">
+         <li><a href="https://dribbble.com/branding" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my p0 px0 py0"><span class="gray h4"> Brand</span></a></li><br/>
+          <li><a href="https://dribbble.com/advertise" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4"> Advertise</span></a></li><br/>
+          <li><a href="http://developer.dribbble.com" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4"> API</span></a></li><br/>
+          <li><a href="https://dribbble.com/integrations" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4"> Integrations</span></a></li><br/>
+</h4>       
+ </ul>
+</div>
+   
+  <div class="sm-col sm-col-3 px2">
+     <h4 class="h5 m0">
+            <a href="https://dribbble.com/jobs" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0"><span class="gray h4">
+              Jobs for Designers
+</a>          </h4>
+
+  <br/>        
+  <a class="item-team" rel="tipsy" title="Visit the team&#39;s profile" href="/schoology">
+  <img class="circle left" width="50" height="50" src="https://d13yacurqjgara.cloudfront.net/users/447025/avatars/normal/sgy2.png?1384969055" alt="Sgy2" />
+</a>
+
+  <a  data-url="http://grnh.se/21pxs3" href="/jobs/11710?source=footer" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0">
+      <span class="blue h4">Schoology</span><br/>
+      <span class="gray h4">Freelance Art Director / Visual Designer</span>
+
+
+</a>
+<br/><br/>
+  <a class="item-team" rel="tipsy" title="Visit the team&#39;s profile" href="/Facebook">
+  <img class="circle left" width="50" height="50" src="https://d13yacurqjgara.cloudfront.net/users/333588/avatars/normal/9a9d5301e289975fa16abd070f1615c0.png?1440610176" alt="9a9d5301e289975fa16abd070f1615c0" />
+</a>
+
+  <a data-url="http://pro.applytojob.com/apply/KnhEcm/UX-UI-Designer" href="/jobs/11780?source=footer" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my0 p0 px0 py0">
+      <span class="blue h4">Facebook</span><br/>
+      <span class="gray h4">Contract Product Designer</span>
+
+</a>
+
+</div>
+
+<div class="sm-col sm-col-4 px2">
+     <h4 class="h5 m0">
+  <a href="http://decknetwork.net/" class="hover-text decoration-black btn-outline white bg-white m0 mx0 my p0 px0 py0"><span class="gray caps">Ads via The Deck</span></a>
+</h4><br/><br/><br/><br/>
+<h2 class="h3 m0">
+<img alt="icon-team dribbble" width="100" class="left" src="https://d13yacurqjgara.cloudfront.net/assets/dribbble-ball-big-494dc2cc12cb4245acedde3dec08b90dce9901a670b4d92462d5d17a5caef488.png"/>
+  <span class="black center"><strong>600,984,311,807</strong></span><h3><span class="center">pixels dribbbled</span>
+</h3></h2>
+</div>
+</div>
+<h3 class=h4 mb0>
+    <p>Copyright &copy; 2009&ndash;2016 Dribbble LLC. All screenshots &copy; their respective owners. Shipped from Salem, Mass. USA.</p>
+</h3>
+    <p class="follow">
+      <a href="https://dribbble.com/dribbble"><img width="24" src="https://d13yacurqjgara.cloudfront.net/assets/icon-team-dribbble-8706862cdb0afa7f43f9e0218b073515f0a2bef19780961d324ae4620ebe249b.png" alt="Icon team dribbble" /></a>
+      <a href="http://twitter.com/dribbble"><img width="24" src="https://d13yacurqjgara.cloudfront.net/assets/icon-team-twitter-1fa6921d96b16e47f00ad0381ebbab59ba089c22b21f9bce783c9a4a077f40e9.png" alt="Icon team twitter" /></a>
+      <a href="http://facebook.com/dribbble"><img width="24" src="https://d13yacurqjgara.cloudfront.net/assets/icon-team-facebook-4d63851997b88eb903858057327d93df9f950a55c5104a3a19206f2005682ea3.png" alt="Icon team facebook" /></a>
+      <a href="http://instagram.com/dribbble"><img width="24" src="https://d13yacurqjgara.cloudfront.net/assets/icon-team-instagram-5dfdcd1478ea4a1c1e109b32adbd3878062aa1eb571da63ac379e0da1d2d5762.png" alt="Icon team instagram" /></a>
+      <a href="https://dribbble.com/stories">
+        <img width="24" src="https://d13yacurqjgara.cloudfront.net/assets/icon-team-blog-2705adcb7ee6522051e175d10683208f0fa0ad17daa15fdf3f36aca99c540312.png" alt="Icon team blog" />
+</a>    </p>                                                           
+
+</div>
+ </div>
+</footer><!-- /footer -->
+
+  <div class="shot-overlay" style="display:none;" tabindex="-1">
+    <a href="#" class="close-overlay" aria-label="close">
+      <img src="https://d13yacurqjgara.cloudfront.net/assets/icon-shot-x-light-40c073cd65443c99d4ac129b69bf578c8cf97d69b78990c00c4f8c5873b0d601.png" alt="Icon shot x light" />
+    </a>
+
+    <div class="overlay-content group" style="display: none"></div>
+  </div>
+  <div class="attachment-overlay" style="display:none;" tabindex="-1"></div>
+
+
+<script src="//js.honeybadger.io/v0.2/honeybadger.min.js"></script>
+<script>
+Honeybadger.configure({
+  api_key: '1f1d2734', // Public API key
+  environment: 'production',
+  disabled: false,
+  onerror: false,
+  ssl: true
+});
+
+Honeybadger.setContext({
+  userId: null,
+  serverTime: 1476256405000,
+  clientTime: +new Date(),
+  clientTimeString: (new Date()).toString()
+})
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!-- jquery failover -->
+<script>
+  if (typeof jQuery == 'undefined') {
+    document.write(unescape('%3Cscript src="https://d13yacurqjgara.cloudfront.net/assets/jquery-1.8.3.min-2354e6d50cb409b198f3260f3a78ccbbfe15a9b16411559b488f592d8f9f1ec9.js">%3C/script>'))
+  }
+</script>
+
+
+<script src="https://d13yacurqjgara.cloudfront.net/assets/global-7e420f44d0a4591715b1223a75e66b6a9f54b5007f29c85d54c66a23acb7e1ae.js"></script>
+
+  <script>
+    new Dribbble.ShareSheet({
+      selector: "[data-share-shot=1740688]",
+      body: "Product Dashboard, Activity Feed UI/UX by Mason Yarnell",
+      imageUrl: "https://d13yacurqjgara.cloudfront.net/users/44126/screenshots/1740688/shot.png",
+      bodies: {
+        twitter: "Product Dashboard, Activity Feed UI/UX by @masonyarnell:"
+      }
+    })
+  </script>
+<script src="https://d13yacurqjgara.cloudfront.net/assets/shots-manifest-daac23fc379932a2751cafa7f762033e649a91df078f94f5efacf0c4469b53b7.js"></script>
+<script>
+
+loadComments('/shots/1740688-Product-Dashboard-Activity-Feed-UI-UX/comments', function() {
+  initComments();
+  makeCommentsDeleteable();
+}, false);
+
+var can_see_mentions = false;
+var current_user_id = 0;
+var comments_deletable = false;
+
+if (Dribbble.isMobile()) {
+  $(".the-shot .single-img").swipe({
+    fingers: 1,
+    threshold: 200,
+    swipeLeft: Screenshot.Page.next,
+    swipeRight: Screenshot.Page.prev
+  });
+}
+
+  $('.zoomable .single-img').click(Screenshot.Shot.twotimes)
+
+
+Dribbble.Shots.add([{
+  id: '1740688',
+  ga: []
+}])
+</script>
+    <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+    ga("create", "UA-24041469-1", "auto");
+  </script>
+
+  <script>
+    if (window.location.pathname == "/") {
+      ga("send", "pageview", "/shots" + location.search);
+    } else {
+      ga("send", "pageview", "/shots/1740688-Product-Dashboard-Activity-Feed-UI-UX");
+    }
+
+    if ($(".ad.thedeck.target").length > 0) {
+      ga("send", "event", "Deck", "View", "View of a Deck ad", 1);
+    }
+
+
+  </script>
+
+
+  <div class="thedeck loading-dock hide">
+<script>
+  Dribbble.DeckAd.enable();
+  Dribbble.DeckAd.load();
+</script>
+</div>
+
+
+
+</body>
+</html>
