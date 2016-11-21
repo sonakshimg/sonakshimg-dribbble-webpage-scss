@@ -1,7 +1,7 @@
 div#header div#header-inner nav div.clearfix {
   background: black;
   padding-bottom: 0.2rem;
-  padding-top: 0.8rem; font-family:Helvetica Neue,Helvetica,Arial,sans-serif; font-size:14px;}
+  padding-top: 0.8rem; font-family:Arial; font-size:14px;}
   div#header div#header-inner nav div.clearfix h4 {
     color: white; }
     div#header div#header-inner nav div.clearfix h3 div.left a img {
@@ -35,7 +35,7 @@ div#header div#header-inner section.container {
     margin-left:1rem; margin-right:1rem; }
     div#header div#header-inner section.container div.clearfix div.col {
       width: 33.33333%; width:33.33333%; }
-  div#header div#header-inner section.container div.clearfix div.screenshot-info-wrapper div.screenshot-conversation div.shot-desc h3 p.regular{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:16px;} div#header div#header-inner section.container div.clearfix div.flex{ color:gray; }  div#header div#header-inner section.container div.clearfix div.flex div.flex-auto {
+  div#header div#header-inner section.container div.clearfix div.screenshot-info-wrapper div.screenshot-conversation div.shot-desc h3{font-family:Arial; font-size:16px;}div#header div#header-inner section.container div.clearfix div.screenshot-info-wrapper div.screenshot-conversation div.shot-desc h3 p.regular{font-family:Arial; font-size:16px;} div#header div#header-inner section.container div.clearfix div.flex{ color:gray; }  div#header div#header-inner section.container div.clearfix div.flex div.flex-auto {
       padding-right: 1rem;
       padding-left: 1rem; }
     div#header div#header-inner section.container div.clearfix div.flex div.px2 h3 a.hover-text btn {
